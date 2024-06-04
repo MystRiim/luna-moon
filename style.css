@@ -1,0 +1,58 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+
+	background: url(img2/moon3.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color: #cdcdcd;
+	font-size: 3rem;
+}
+
+hr {
+	margin: 20px auto;
+	color: #38598b;
+	border: 1px solid #38598b;
+	max-width: 65px;
+	opacity: 1;
+}
+
+.btn {
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 600px;
+}
+
+.btn-primary {
+	background-color: #38598b;
+	border-color: #38598b;
+	transition: all 1s;
+}
+
+.btn-primary:hover {
+	background-color: #102f5e;
+	border-color: #102f5e;
+	border-width: 3px;
+	transform: scale(1.1);
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.text-bg-dark {
+	opacity: 0.2;
+	transition: all 1s;
+}
+
+.text-bg-dark:hover {
+	opacity: inherit;
+	transform: scale(1.1);
+}
